@@ -52,7 +52,7 @@ void colorGraph(Graph& graph, const string& outputFileName) {
 
     ofstream outputFile(outputFileName);
     if (!outputFile.is_open()) {
-        cout << "Çıktı dosyası oluşturulamadı: " << outputFileName << endl;
+        cout << "Output file failed " << outputFileName << endl;
         return;
     }
 
